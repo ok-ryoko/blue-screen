@@ -42,6 +42,7 @@ colorscheme blue-screen
 - [lewis6991/gitsigns.nvim]
 - [lukas-reineke/indent-blankline.nvim]
 - [nvim-lualine/lualine.nvim]
+- [nvim-treesitter]
 
 ## License
 
@@ -58,5 +59,6 @@ Blue Screen is free and open source software licensed under the [MIT license].
 [MIT license]: ./LICENSE.txt
 [Neovim]: https://github.com/neovim/neovim
 [nvim-lualine/lualine.nvim]: https://github.com/nvim-lualine/lualine.nvim
+[nvim-treesitter]: https://github.com/nvim-treesitter/nvim-treesitter
 [Packer]: https://github.com/wbthomason/packer.nvim
 [Source Code Pro]: https://github.com/adobe-fonts/source-code-pro
