@@ -5,12 +5,10 @@
 ## Gallery
 
 ![Neovim welcome screen with Blue Screen colors](./docs/img/welcome.png)
-
-*Neovim welcome screen featuring [Source Code Pro] at 11.5 pt and [Lualine][nvim-lualine/lualine.nvim] rendered in [GNOME Terminal]*
+> *Neovim welcome screen featuring [Source Code Pro] at 11.5 pt and [Lualine][nvim-lualine/lualine.nvim] rendered in [GNOME Terminal]*
 
 ![Zig standard library source code in Neovim with Blue Screen colors](./docs/img/zig-debug.png)
-
-*[Lines 192–213 from ziglang/zig/lib/std/debug.zig@0.10.1][example] featuring [Intel One Mono] at 11.5 pt and Lualine rendered in GNOME Terminal*
+> *[Lines 192–213 from ziglang/zig/lib/std/debug.zig@0.10.1][example] featuring [Intel One Mono] at 11.5 pt, Lualine and [Indent Blankline][lukas-reineke/indent-blankline.nvim] rendered in GNOME Terminal*
 
 ## Installation
 
