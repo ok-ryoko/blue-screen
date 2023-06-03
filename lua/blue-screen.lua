@@ -269,7 +269,7 @@ function M.load_colors()
   hl("CmpItemAbbrDeprecated", { fg = p.blue65 })
   hl("CmpItemAbbrMatch", { fg = p.blue95 })
   hl("CmpItemAbbrMatchFuzzy", { fg = p.blue85 })
-  hl("CmpItemKind", { fg = p.blue65, italic = true })
+  hl("CmpItemKind", { fg = p.blue55 })
   hl("CmpItemMenu", { fg = p.blue35 })
 
 	-- lewis6991/gitsigns.nvim
