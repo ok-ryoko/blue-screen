@@ -1,0 +1,1 @@
+require("blue-screen").setup()
