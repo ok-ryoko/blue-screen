@@ -1,9 +1,9 @@
 # Blue Screen
 
-*Blue Screen* is a minimal [Neovim] theme inspired by the notorious [blue screen of death]. It is dedicated to [error 0xA], `IRQL_NOT_LESS_OR_EQUAL`.
+… is a minimal [Neovim] theme inspired by the notorious [blue screen of death] and dedicated to [error 0xA], `IRQL_NOT_LESS_OR_EQUAL`.
 
 ![Linux kernel source code relating to capability checks in Blue Screen colors](./docs/img/c-linux-commoncap.png)
-*[Lines 66–87 from linux/security/commoncap.c@v6.0][example] featuring [Intel One Mono] at 12 pt, [Lualine][nvim-lualine/lualine.nvim] and [Indent Blankline][lukas-reineke/indent-blankline.nvim] rendered in [GNOME Terminal] at 80 × 24*
+Example: [Lines 66–87 from linux/security/commoncap.c@v6.0][example] featuring [Intel One Mono] at 12 pt, [Lualine][nvim-lualine/lualine.nvim] and [Indent Blankline][lukas-reineke/indent-blankline.nvim] rendered in [GNOME Terminal] at 80 × 24
 
 ## Installation
 
