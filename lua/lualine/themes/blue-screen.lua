@@ -2,8 +2,8 @@ local p = require("blue-screen").palette()
 
 return {
   normal = {
-    a = { fg = p.blue15, bg = p.blue75 },
-    b = { fg = p.blue75, bg = p.blue15 },
-    c = { fg = p.blue75, bg = p.blue15 },
-  }
+    a = { fg = p.blue1, bg = p.blue6 },
+    b = { fg = p.blue6, bg = p.blue1 },
+    c = { fg = p.blue6, bg = p.blue1 },
+  },
 }
