@@ -110,7 +110,7 @@ function M.load_colors()
   hl("Pmenu", { fg = p.blue6, bg = p.blue3 })
   hl("PmenuSbar", { fg = p.blue6, bg = p.blue4 })
   hl("PmenuSel", { fg = p.blue6, bg = p.blue4 })
-  hl("PmenuThumb", { bg = p.blue5})
+  hl("PmenuThumb", { bg = p.blue5 })
   hl("PreProc", { fg = p.blue7 })
   hl("Question", { fg = p.blue6, italic = true })
   hl("QuickFixLine", { reverse = true })
@@ -291,7 +291,7 @@ function M.load_colors()
   hl("CmpItemKind", { fg = p.blue5 })
   hl("CmpItemMenu", { fg = p.blue3 })
 
-	-- lewis6991/gitsigns.nvim
+  -- lewis6991/gitsigns.nvim
   hl("GitSignsAdd", { fg = p.bright_pink })
   hl("GitSignsChange", { fg = p.bright_orange })
   hl("GitSignsDelete", { fg = p.bright_azure })
