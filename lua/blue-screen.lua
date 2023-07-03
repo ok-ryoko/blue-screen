@@ -35,7 +35,7 @@ function M.palette()
     cyan = "#00a697",
     bright_cyan = "#00e3cf",
     white = "#c6c6c6",
-    bright_white = "#feffff",
+    bright_white = "#ffffff",
 
     error_red = "#ff5555",
     warning_yellow = "#ffff55",
@@ -90,7 +90,7 @@ function M.load_colors()
   hl("DiffText", { fg = p.blue6 })
   hl("Directory", { bold = true })
   hl("EndOfBuffer", { fg = p.blue3 })
-  hl("ErrorMsg", { fg = p.error_red, bold = true })
+  hl("ErrorMsg", { fg = p.error_red })
   hl("FoldColumn", { fg = p.blue3 })
   hl("Folded", { fg = p.blue5, bg = p.blue1 })
   hl("Function", { fg = p.blue7 })
@@ -109,15 +109,15 @@ function M.load_colors()
   hl("NvimInternalError", { fg = p.blue0, bg = p.error_red })
   hl("Pmenu", { fg = p.blue6, bg = p.blue3 })
   hl("PmenuSbar", { fg = p.blue6, bg = p.blue4 })
-  hl("PmenuSel", { fg = p.blue6, bg = p.blue4 })
+  hl("PmenuSel", { fg = p.blue7, bg = p.blue4 })
   hl("PmenuThumb", { bg = p.blue5 })
   hl("PreProc", { fg = p.blue7 })
   hl("Question", { fg = p.blue6, italic = true })
   hl("QuickFixLine", { reverse = true })
-  hl("RedrawDebugClear", { bg = p.warning_yellow })
-  hl("RedrawDebugComposed", { reverse = true })
+  hl("RedrawDebugClear", { fg = p.blue0, bg = p.bright_pink })
+  hl("RedrawDebugComposed", { fg = p.blue0, bg = p.bright_orange })
   hl("RedrawDebugNormal", { reverse = true })
-  hl("RedrawDebugRecompose", { bg = p.error_red })
+  hl("RedrawDebugRecompose", { fg = p.blue0, bg = p.bright_azure })
   hl("Search", { reverse = true })
   hl("SignColumn", { fg = p.blue5, bg = p.blue0 })
   hl("SpecialKey", { link = "Special" })
