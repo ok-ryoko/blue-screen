@@ -35,7 +35,6 @@ colorscheme blue-screen
 
 - [hrsh7th/nvim-cmp]
 - [lewis6991/gitsigns.nvim]
-- [lukas-reineke/indent-blankline.nvim]
 - [nvim-lualine/lualine.nvim]
 - [nvim-treesitter]
 

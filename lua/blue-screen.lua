@@ -314,13 +314,6 @@ function M.load_colors()
   hl("GitSignsStagedDeleteNr", { link = "GitSignsStagedDelete" })
   hl("GitSignsStagedTopdelete", { link = "GitSignsStagedDelete" })
   hl("GitSignsStagedTopdeleteNr", { link = "GitSignsStagedDelete" })
-
-  -- github.com/lukas-reineke/indent-blankline.nvim
-  hl("IndentBlanklineContextChar", { fg = p.blue3 })
-  hl("IndentBlanklineContextStart", { fg = p.blue3 })
-  hl("IndentBlanklineChar", { fg = p.blue2 })
-  hl("IndentBlanklineSpaceChar", { fg = p.blue2 })
-  hl("IndentBlanklineSpaceCharBlankline", { fg = p.blue2 })
 end
 
 function M.setup()
