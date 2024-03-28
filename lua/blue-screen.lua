@@ -182,7 +182,7 @@ function M.load_colors()
   -- syntax/diff.vim
   hl("diffAdded", { link = "DiffAdd" })
   hl("diffChanged", { link = "DiffChange" })
-  hl("diffFile", { fg = p.blue6 })
+  hl("diffFile", { link = "Statement" })
   hl("diffNewFile", { link = "DiffAdd" })
   hl("diffOldFile", { link = "DiffDelete" })
   hl("diffRemoved", { link = "DiffDelete" })
