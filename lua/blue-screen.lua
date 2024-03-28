@@ -198,7 +198,7 @@ function M.load_colors()
   hl("@lsp.type.typeParameter", { link = "Type" })
   hl("@lsp.type.variable", { link = "Identifier" })
 
-  -- nvim-treesitter
+  -- github.com/nvim-treesitter/nvim-treesitter
   hl("@attribute", { link = "PreProc" })
   hl("@attribute.builtin", { link = "@constant" })
   hl("@boolean", { link = "Boolean" })
@@ -278,7 +278,7 @@ function M.load_colors()
   hl("@variable", { link = "Identifier" })
   hl("@variable.builtin", { link = "Constant" })
 
-  -- vimdiff
+  -- syntax/diff.vim
   hl("diffAdded", { link = "DiffAdd" })
   hl("diffChanged", { link = "DiffChange" })
   hl("diffFile", { fg = p.blue6 })
@@ -286,7 +286,7 @@ function M.load_colors()
   hl("diffOldFile", { link = "DiffDelete" })
   hl("diffRemoved", { link = "DiffDelete" })
 
-  -- hrsh7th/nvim-cmp
+  -- github.com/hrsh7th/nvim-cmp
   hl("CmpItemAbbr", { fg = p.blue6 })
   hl("CmpItemAbbrDeprecated", { fg = p.blue5 })
   hl("CmpItemAbbrMatch", { fg = p.blue8 })
@@ -294,7 +294,7 @@ function M.load_colors()
   hl("CmpItemKind", { fg = p.blue5 })
   hl("CmpItemMenu", { fg = p.blue3 })
 
-  -- lewis6991/gitsigns.nvim
+  -- github.com/lewis6991/gitsigns.nvim
   hl("GitSignsAdd", { fg = p.bright_pink })
   hl("GitSignsChange", { fg = p.bright_orange })
   hl("GitSignsDelete", { fg = p.bright_azure })
@@ -315,7 +315,7 @@ function M.load_colors()
   hl("GitSignsStagedTopdelete", { link = "GitSignsStagedDelete" })
   hl("GitSignsStagedTopdeleteNr", { link = "GitSignsStagedDelete" })
 
-  -- lukas-reineke/indent-blankline.nvim
+  -- github.com/lukas-reineke/indent-blankline.nvim
   hl("IndentBlanklineContextChar", { fg = p.blue3 })
   hl("IndentBlanklineContextStart", { fg = p.blue3 })
   hl("IndentBlanklineChar", { fg = p.blue2 })
