@@ -1,3 +1,6 @@
+-- SPDX-FileCopyrightText: Copyright 2023, 2024 OK Ryoko
+-- SPDX-License-Identifier: MIT
+
 local function hl(group, color)
   local fg = color.fg or "NONE"
   local bg = color.bg or "NONE"
