@@ -206,7 +206,7 @@ function M.load_colors()
   hl("@lsp.type.typeParameter", { link = "Type" })
   hl("@lsp.type.variable", { link = "Identifier" })
 
-  -- github.com/nvim-treesitter/nvim-treesitter
+  -- github.com/nvim-treesitter/nvim-treesitter/commit/f84887230af1f7581e29ccd5d93f59d98058d565
   hl("@attribute", { fg = p.blue7 })
   hl("@attribute.builtin", { link = "Special" })
   hl("@boolean", { link = "Boolean" })
@@ -299,7 +299,7 @@ function M.load_colors()
   hl("@variable.parameter", { link = "@variable" })
   hl("@variable.parameter.builtin", { link = "Special" })
 
-  -- github.com/hrsh7th/nvim-cmp
+  -- github.com/hrsh7th/nvim-cmp/commit/97dc716fc914c46577a4f254035ebef1aa72558a
   hl("CmpItemAbbr", { fg = p.blue6 })
   hl("CmpItemAbbrDeprecated", { fg = p.blue5 })
   hl("CmpItemAbbrMatch", { fg = p.blue8 })
@@ -307,7 +307,7 @@ function M.load_colors()
   hl("CmpItemKind", { fg = p.blue5 })
   hl("CmpItemMenu", { fg = p.blue3 })
 
-  -- github.com/lewis6991/gitsigns.nvim
+  -- github.com/lewis6991/gitsigns.nvim/commit/70584ff9aae8078b64430c574079d79620b8f06d
   hl("GitSignsAdd", { fg = p.bright_pink })
   hl("GitSignsAddInline", { fg = p.blue0, bg = p.bright_pink })
   hl("GitSignsChange", { fg = p.bright_orange })
