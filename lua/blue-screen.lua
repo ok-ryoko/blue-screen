@@ -350,7 +350,6 @@ function M.setup()
   end
 
   vim.o.background = "dark"
-  vim.o.termguicolors = true
 
   M.load_colors()
 end
