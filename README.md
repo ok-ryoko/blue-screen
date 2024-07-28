@@ -10,6 +10,20 @@ Example: [Lines 66–87 from linux/security/commoncap.c@v6.0][example] rendered 
 - Neovim 0.9.0 or later
 - A terminal emulator that supports 24-bit RGB color, italics and undercurls
 
+## Recommendations ##
+
+This theme is optimized for the following option values:
+
+```lua
+vim.opt.colorcolumn = ""
+vim.opt.cursorcolumn = false
+vim.opt.cursorline = true
+vim.opt.cursorlineopt = "number"
+vim.opt.number = true
+```
+
+Should you prefer a different combination of option values, this theme may not work well for you.
+
 ## Installation ##
 
 Please follow the instructions for your favorite package manager.
@@ -30,6 +44,8 @@ colorscheme blue-screen
 
 ## Explicitly supported plugins ##
 
+To promote aesthetic consistency, [Ryoko] may update highlight groups for some plugins that she uses. This theme accounts for the following plugins:
+
 - [hrsh7th/nvim-cmp]
 - [lewis6991/gitsigns.nvim]
 - [nvim-lualine/lualine.nvim]
@@ -37,7 +53,11 @@ colorscheme blue-screen
 
 ## Backward compatibility of highlight groups ##
 
-Because the Neovim ecosystem is unstable and changing rapidly, [Ryoko] prefers to minimize cognitive load than to maintain backward compatibility. Thus, deprecated highlight groups will be kept for at least two months, one minor version of Neovim or one major version of stable semantically versioned plugins, whichever comes first.
+Because the Neovim ecosystem is unstable and changing rapidly, Ryoko prefers to minimize cognitive load than to maintain backward compatibility. She will keep deprecated highlight groups for at least:
+
+- Neovim: one minor version
+- stable semantically versioned plugins: one major version
+- nonversioned or unstable plugins: two months
 
 ## License ##
 
