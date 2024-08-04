@@ -45,7 +45,7 @@ function M.palette()
   }
 end
 
-function M.load_colors()
+function M.set_hl_groups()
   local p = M.palette()
 
   -- terminal
@@ -358,7 +358,7 @@ function M.setup()
 
   vim.o.background = "dark"
 
-  M.load_colors()
+  M.set_hl_groups()
 end
 
 return M
